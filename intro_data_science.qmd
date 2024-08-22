@@ -1,0 +1,48 @@
+---
+title: "Intro to Data Science"
+format: html
+editor: visual
+---
+
+## Data Science and Statistics
+
+-   **What do you think being a data scientist is about?**
+
+    A data scientist is a professional who creates programming code and combines it with mathematical, statistical, and computer science knowledge to create insights from data.
+
+-   **What differences/similarities do you see between data scientists and statisticians?**
+
+    Some may argue that data scientists are a form of statisticians. Both roles work to solve similar types of problems, which include, but are not limited to:
+
+    -   Description: summarizing and exploring data sets by describing statistics
+    -   Comparison between groups
+    -   Classification
+    -   Regression
+
+    However, there are still a few characteristics that may separate the two roles. For example, some statisticians focus on the data collection stage of the project, whereas most data scientists will utilize an already collected data set and often work with digital data. Because data scientists work with digital data and sometimes big data, they usually have more data cleaning and data wrangling to complete their project pipeline. In addition to the differences in how the data is collected and the size/ messiness of the data, we see a difference in the type of modeling methods used, as statisticians work with structured data and data scientists work with a mix of structured and unstructured data.
+
+-   **How do you view yourself in relation to these two areas?**
+
+    I view myself as being in the middle of these two areas, I am both a statistician and a data scientist. As a statistician, I value the data collection phase of a project, but I also loosely enjoy the data cleaning and wrangling phase that data scientists often have to go through. Regarding the methodology used, I much prefer a structured learning approach with classification and regression methods commonly used within biostatistics and public health. However, I want to learn about unsupervised learning applications within these two fields.
+
+## Exploring Object y
+
+We are given the object y below to explore.
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Next, we'll determine the class, type, and structure of the object y.
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Here, we'll use the plot function on object y to create a density plot.
+
+```{r echo=FALSE}
+plot(y)
+```
